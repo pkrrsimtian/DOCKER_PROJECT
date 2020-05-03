@@ -32,8 +32,14 @@ Step 6: Download Images by this Command
         #docker pull mysql:5.7
         #docker pull mongo:4.0
         #docker pull rocket.chat
+Step 7:Install Docker-compose by These Command
         
-Step 7 :Download My Repository & launch your Environment by TUI program
+         #curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+         #chmod +x /usr/local/bin/docker-compose
+         #ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+         
+
+Step 8:Download My Repository & launch your Environment by TUI program
         
          #git clone https://github.com/pkrrsimtian/DOCKER_PROJECT.git
          #cd DOCKER_PROJECT
