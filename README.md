@@ -9,6 +9,8 @@ Step 2: Configure Local YUM
 
 Step 3: Install DOCKER_CE
 
+      #yum install docker-ce --nobest
+
 Step 4: Start Docker engine by this command
 
           For Temporary
@@ -31,7 +33,7 @@ Step 6: Download Images by this Command
         #docker pull mongo:4.0
         #docker pull rocket.chat
         
-Step 7 :Download My Repository & lauch your Environment by TUI program
+Step 7 :Download My Repository & launch your Environment by TUI program
         
          #git clone https://github.com/pkrrsimtian/DOCKER_PROJECT.git
          #cd DOCKER_PROJECT
